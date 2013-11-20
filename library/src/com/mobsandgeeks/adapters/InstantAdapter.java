@@ -33,8 +33,8 @@ import java.util.List;
  */
 public class InstantAdapter<T> extends ArrayAdapter<T> {
 
-    private Context mContext;
-    private InstantAdapterCore<T> mInstantAdapterCore;
+    protected Context mContext;
+    protected InstantAdapterCore<T> mInstantAdapterCore;
 
     /**
      * Constructs a new {@link InstantAdapter} for your model.

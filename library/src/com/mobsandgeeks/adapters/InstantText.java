@@ -59,4 +59,5 @@ public @interface InstantText {
     public int formatStringResId()  default 0;
     public String formatString()    default "";
     public boolean isHtml()         default false;
+    public boolean isDeactivated()  default false;
 }
